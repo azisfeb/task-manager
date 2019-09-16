@@ -20,7 +20,7 @@ export default function Album(props) {
     console.log(props.task.length === undefined)
 
     const classes = useStyles();
-    const cards = props.task.length === undefined ? [{ _id:'929292', title:'dummy', descriprion:'dummy', status:'open', priority:'urgent' }] : props.task; 
+    const cards = props.task.length === undefined ? [{}] : props.task; 
 
   return (
     <React.Fragment>
