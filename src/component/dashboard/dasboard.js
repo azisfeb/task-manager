@@ -57,7 +57,7 @@ export default function Album(props) {
                 editPhase={props.editPhase}
                 idForEdit={props.idForEdit}
                 handleUpdate={props.handleUpdate}
-            />
+            /> 
           </Container>
         </div>
         <Container className={classes.cardGrid} maxWidth="md">
